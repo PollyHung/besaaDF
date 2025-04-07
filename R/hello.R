@@ -14,3 +14,9 @@
 #   Test Package:              'Cmd + Shift + T'
 
 
+files <- list.files("~/Desktop/BESAA/codes/BESAA/docs/breakpoints/", full.names = FALSE)
+for(i in files){
+  ref2 <- read.delim(paste0("~/Desktop/BESAA/codes/BESAA/docs/breakpoints/", i))
+  i <- gsub(".txt", "", i)
+  save(ref2, file = paste0("data/", i, ".RData"))
+}
