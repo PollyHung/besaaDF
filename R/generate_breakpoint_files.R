@@ -33,3 +33,5 @@
 #   i <- gsub(".txt", "", i)
 #   save(ref2, file = paste0("data/", i, ".RData"))
 # }
+
+devtools::document()
