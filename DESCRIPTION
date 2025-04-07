@@ -1,0 +1,9 @@
+Package: besaaDF
+Type: Package
+Title: Host the supplement files used in the main BESAA package.
+Version: 0.1.0
+Author: Polly
+Maintainer: Polly <u3012149@connect.hku.hk>
+Description: This is a Supplement Package to the main BESAA package, containing all the files used in that package. 
+License: MIT
+RoxygenNote: 7.3.2
