@@ -6,4 +6,6 @@ Author: Polly
 Maintainer: Polly <u3012149@connect.hku.hk>
 Description: This is a Supplement Package to the main BESAA package, containing all the files used in that package. 
 License: MIT
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Encoding: UTF-8
